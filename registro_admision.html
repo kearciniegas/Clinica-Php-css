@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/menu.min.css">
   </head>
   <body>
-    <form name="registro_jefe" action="registro_jefe.php" method="POST" >
     <div class="menu-wrapper" role="navigation">
       <ul class="nav" role="menubar">
         <li role="menuitem">
@@ -44,22 +43,38 @@
   <br>
   <br>
   <br>
-<h1>REGISTRAR JEFE</h1>
+<h1>REGISTRAR ADMISION</h1>
 <div class="texto">
-    <table>
-    <tr><td align="right"><b>CODIGO DEL JEFE</FONT></b></td>
-        <td><input type="number" step="any" name="cod_jefe" value=""></td>
-        </tr>
-        <tr><td align="right"><b>CARGO</FONT></b></td>
-        <td><input type="text" step="any" name="cargo" value=""></td>
-        </tr>
-                <tr><td align="right"><b>CODIGO DE DEPARTAMENTO</FONT></b></td>
-                  <td><input type="number" step="any" name="cod_dep" value=""></td>
+                  <table>
+                  <tr><td align="right"><b>DOCUMENTO DEL PACIENTE</FONT></b></td>
+                  <td><input type="number" step="any" name="documento" value=""></td>
                   </tr>
-                  <tr><td align="right"><b>DESCRIPCION DE DEPARTAMENTO</FONT></b></td>
-                  <td><input type="text" step="any" name="descripcion_depa" value=""></td>
+                  <tr><td align="right"><b>CODIGO CUPS</FONT></b></td>
+                  <td><input type="number" step="any" name="codigo_cups" value=""></td>
                   </tr>
-                                          </table>
+                  <tr><td align="right"><b>DESCRIPCION</FONT></b></td>
+                  <td><input type="text" step="any" name="descripcion" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>CODIGO DEL MEDICO</FONT></b></td>
+                  <td><input type="number" step="any" name="cod_med" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>FECHA DE SOLICITUD</FONT></b></td>
+                  <td><input type="date" step="any" name="fecha_solicitud" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>FECHA DE CITA</FONT></b></td>
+                  <td><input type="date" step="any" name="fecha_cita" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>USUARIO ADMISION</FONT></b></td>
+                  <td><input type="number" step="any" name="usuario_admision" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>NUMERO DE INGRESO</FONT></b></td>
+                  <td><input type="number" step="any" name="nu_ingreso" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>FECHA DE INGRESO</FONT></b></td>
+                  <td><input type="date" step="any" name="fecha_ingreso" value=""></td>
+                  </tr>
+
+                  </table>
 <input  class="boton" type ="submit" value="REGISTRAR" name="guardar" >  
 </center>
                                               

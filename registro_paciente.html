@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/menu.min.css">
   </head>
   <body>
-    <form name="registro_jefe" action="registro_jefe.php" method="POST" >
     <div class="menu-wrapper" role="navigation">
       <ul class="nav" role="menubar">
         <li role="menuitem">
@@ -44,22 +43,28 @@
   <br>
   <br>
   <br>
-<h1>REGISTRAR JEFE</h1>
+<h1>REGISTRAR PACIENTE</h1>
 <div class="texto">
-    <table>
-    <tr><td align="right"><b>CODIGO DEL JEFE</FONT></b></td>
-        <td><input type="number" step="any" name="cod_jefe" value=""></td>
-        </tr>
-        <tr><td align="right"><b>CARGO</FONT></b></td>
-        <td><input type="text" step="any" name="cargo" value=""></td>
-        </tr>
-                <tr><td align="right"><b>CODIGO DE DEPARTAMENTO</FONT></b></td>
-                  <td><input type="number" step="any" name="cod_dep" value=""></td>
+                  <table>
+                  <tr><td align="right"><b>DOCUMENTO</FONT></b></td>
+                  <td><input type="number" step="any" name="documento" value=""></td>
                   </tr>
-                  <tr><td align="right"><b>DESCRIPCION DE DEPARTAMENTO</FONT></b></td>
-                  <td><input type="text" step="any" name="descripcion_depa" value=""></td>
+                  <tr><td align="right"><b>NOMBRES</FONT></b></td>
+                  <td><input type="text" step="any" name="nombres" value=""></td>
                   </tr>
-                                          </table>
+                  <tr><td align="right"><b>APELLIDOS</FONT></b></td>
+                  <td><input type="text" step="any" name="apellidos" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>DIRECCION</FONT></b></td>
+                  <td><input type="text" step="any" name="direccion" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>TELEFONO FIJO</FONT></b></td>
+                  <td><input type="text" step="any" name="tel_fijo" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>TELEFONO CELULAR</FONT></b></td>
+                  <td><input type="text" step="any" name="tel_celular" value=""></td>
+                  </tr>
+                  </table>
 <input  class="boton" type ="submit" value="REGISTRAR" name="guardar" >  
 </center>
                                               

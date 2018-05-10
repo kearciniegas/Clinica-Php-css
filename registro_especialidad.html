@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/menu.min.css">
   </head>
   <body>
-    <form name="registro_jefe" action="registro_jefe.php" method="POST" >
+    <form name="registro_especialidad" action="registro_especialidad.php" method="POST" >
     <div class="menu-wrapper" role="navigation">
       <ul class="nav" role="menubar">
         <li role="menuitem">
@@ -21,7 +21,7 @@
                 <li role="menuitem"><a href="registro_departamento.html">REGISTRAR DEPARTAMENTO</a></li>
                 <li role="menuitem"><a href="registro_cargo.html">REGISTRAR CARGO</a></li>
                 <li role="menuitem"><a href="registro_contrato.html">REGISTRAR CONTRATO</a></li>
-                <li role="menuitem"><a href="registro_especialidad.html">REGISTRAR ESPECIALIDAD</a></li>
+                <li role="menuitem"><a href="registro_especialidad">REGISTRAR ESPECIALIDAD</a></li>
                 <li role="menuitem"><a href="registro_medicos.html">REGISTRAR MEDICOS</a></li>
               </ul>
             </div>
@@ -44,22 +44,17 @@
   <br>
   <br>
   <br>
-<h1>REGISTRAR JEFE</h1>
+<h1>REGISTRAR ESPECIALIDAD</h1>
 <div class="texto">
-    <table>
-    <tr><td align="right"><b>CODIGO DEL JEFE</FONT></b></td>
-        <td><input type="number" step="any" name="cod_jefe" value=""></td>
-        </tr>
-        <tr><td align="right"><b>CARGO</FONT></b></td>
-        <td><input type="text" step="any" name="cargo" value=""></td>
-        </tr>
-                <tr><td align="right"><b>CODIGO DE DEPARTAMENTO</FONT></b></td>
-                  <td><input type="number" step="any" name="cod_dep" value=""></td>
+                  <table>
+                  <tr><td align="right"><b>CODIGO DE ESPECIALIDAD</FONT></b></td>
+                  <td><input type="number" step="any" name="cod_especialidad" value=""></td>
                   </tr>
-                  <tr><td align="right"><b>DESCRIPCION DE DEPARTAMENTO</FONT></b></td>
-                  <td><input type="text" step="any" name="descripcion_depa" value=""></td>
+                  <tr><td align="right"><b>DESCRIPCION</FONT></b></td>
+                  <td><input type="text" step="any" name="descripcion" value=""></td>
                   </tr>
-                                          </table>
+          
+                  </table>
 <input  class="boton" type ="submit" value="REGISTRAR" name="guardar" >  
 </center>
                                               
