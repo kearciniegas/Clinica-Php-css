@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CENTRO MEDICO</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="css/menu.min.css">
+  </head>
+  <body>
+    <form name="registrar_empleado" action="registrar_empleado.php" method="POST" >
+    <div class="menu-wrapper" role="navigation">
+      <ul class="nav" role="menubar">
+        <li role="menuitem">
+          <a href="index.html">INICIO</a>
+          <div class="mega-menu" aria-hidden="true" role="menu">
+            <div class="nav-column">
+              <h3>REGISTROS</h3>
+              <ul>
+               <li role="menuitem"><a href="registro_jefe.html">REGISTRAR JEFE</a></li>
+                <li role="menuitem"><a href="registrar_empleado.html">REGISTRAR EMPLEADO</a></li>
+                <li role="menuitem"><a href="registro_departamento.html">REGISTRAR DEPARTAMENTO</a></li>
+                <li role="menuitem"><a href="registro_cargo.html">REGISTRAR CARGO</a></li>
+                <li role="menuitem"><a href="#">REGISTRAR CONTRATO</a></li>
+                <li role="menuitem"><a href="#">REGISTRAR ESPECIALIDAD</a></li>
+                <li role="menuitem"><a href="#">REGISTRAR MEDICOS</a></li>
+              </ul>
+            </div>
+            <div class="nav-column">
+              <h3>REGISTRO PACIENTE</h3>
+              <ul>
+                <li role="menuitem"><a href="#">REGISTRAR PACIENTE</a></li>
+                <li role="menuitem"><a href="#">REGISTRAR ADMISION</a></li>
+              </ul>
+            </div>
+            <div class="nav-column">
+              <h3 class="highlight">RESGISTRO CUPS</h3>
+              <ul>
+                <li role="menuitem"><a href="#">REGISTRAR CUPS</a></li>
+              </ul>
+          </div>
+        </li>
+        <center>
+  <br>
+  <br>
+  <br>
+  <br>
+<h1>REGISTRAR EMPLEADO</h1>
+<div class="texto">
+                  <table>
+                  <tr><td align="right"><b>DOCUMENTO</FONT></b></td>
+                  <td><input type="number" step="any" name="documento" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>NOMBRES</FONT></b></td>
+                  <td><input type="text" step="any" name="nombre" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>APELLIDOS</FONT></b></td>
+                  <td><input type="text" step="any" name="apellido" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>TELEFONO FIJO</FONT></b></td>
+                  <td><input type="varchar" step="any" name="tel_fijo" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>TELEFONO CELULAR</FONT></b></td>
+                  <td><input type="varchar" step="any" name="tel_celular" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>NO CONTRATO</FONT></b></td>
+                  <td><input type="varchar" step="any" name="no_contrato" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>FECHA INICIO</FONT></b></td>
+                  <td><input type="date" step="any" name="fecha_inicio" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>FECHA FIN</FONT></b></td>
+                  <td><input type="date" step="any" name="fecha_fin" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>SUELDO</FONT></b></td>
+                  <td><input type="number" step="any" name="sueldo" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>CODIGO CARGO</FONT></b></td>
+                  <td><input type="number" step="any" name="cod_cargo" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>USUARIO</FONT></b></td>
+                  <td><input type="text" step="any" name="usuario" value=""></td>
+                  </tr>
+                  <tr><td align="right"><b>CODIGO JEFE</FONT></b></td>
+                  <td><input type="number" step="any" name="cod_jefe" value=""></td>
+                  </tr>
+                  </table>
+<input  class="boton" type ="submit" value="REGISTRAR" name="guardar" >  
+</center>
+                                              
+</body>
+</html>
